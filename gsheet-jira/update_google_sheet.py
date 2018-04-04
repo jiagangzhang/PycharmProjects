@@ -1,7 +1,6 @@
 import gspread, os, sys, re
 from oauth2client.service_account import ServiceAccountCredentials
 from get_jira_status import get_issue_status
-from gspread.utils import a1_to_rowcol, rowcol_to_a1
 
 
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
@@ -55,6 +54,9 @@ def main():
     credentials = ServiceAccountCredentials.from_json_keyfile_name(SERVICE_ACCOUNT_FILE, SCOPES)
     client = gspread.authorize(credentials)
     wks = client.open_by_key("1rVtfhMIAtM3sCuZNK72pnU86vILEpLqtIKPvamMuqrw").worksheet('Android Issues')
+    # wks = client.open_by_url \
+    #     ('https://docs.google.com/spreadsheets/d/1rVtfhMIAtM3sCuZNK72pnU86vILEpLqtIKPvamMuqrw/edit?usp=sharing').sheet1
+
     row1 = wks.row_values(1)
     status_col_number = -1
     jira_col_number = -1
@@ -69,17 +71,12 @@ def main():
 
     jira_tickets = wks.col_values(jira_col_number, 'FORMULA')  # find all the jira tickets
     jira_tickets.pop(0)  # remove cell A1 which is the title
-    # print(len(jira_tickets))
-    # get_gdoc_ticket_number(1,jira_tickets[0:4], wks)
 
     if update_hyperlink:
-        add_hyperlink(jira_col_number, 10, wks)
+        add_hyperlink(jira_col_number, len(jira_tickets), wks)  # to do, simplify this step to get length easier
     cell_list = wks.findall(PATTERN)
     if update_ticket:
         update_ticket_status(status_col_number, cell_list, wks)
-
-
-
 
 
 if __name__ == '__main__':
