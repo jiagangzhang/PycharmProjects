@@ -22,7 +22,7 @@ def add_hyperlink(column, length, worksheet):
             continue
         else:
             print(i+2)
-            cell.value = '=HYPERLINK("https://teamecg.atlassian.net/browse/%s","%s")' % (value, value)
+            cell.value = '=HYPERLINK("https://teamecg.atlassian.net/browse/%s","%s")' % (value.upper(), value.upper())
             cell_list.append(cell)
     worksheet.update_cells(cell_list, 'USER_ENTERED')
 
