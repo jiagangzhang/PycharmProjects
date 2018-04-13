@@ -21,7 +21,7 @@ def convert_name(name):
     return new_name
 
 
-# @parameter issue_number shall be like MM-33567
+# @parameter issue_number shall be string like MM-33567
 def get_issue_status(issue_number):
 
     querystring = {"fields": "status"}
@@ -29,7 +29,7 @@ def get_issue_status(issue_number):
     print('Starting to get ticket %s ' % issue_number)
     response = requests.get(jira_url + issue_number, auth=(jiraApiUser, jiraApiToken), headers=headers)
     if response.status_code != 200:
-        print(str(response.status_code) + '\n' + response.text)
+        print(issue_number + str(response.status_code) + '\n' + response.text)
         return ['', '', '', '']
     else:
         try:

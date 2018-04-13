@@ -41,6 +41,15 @@ def update_ticket_status(column, tickets, worksheet):
         worksheet.update_cell(cell.row, column, ticket_status)
 
 
+def new_update_ticket_info(columns, tickets, worksheet):
+    for cell in tickets:
+        ticket_infos = get_issue_status(cell.value.upper())
+        if '' in ticket_infos: continue
+        for i in range(len(columns)):
+            if worksheet.cell(cell.row, columns[i]) != ticket_infos[i]:
+                worksheet.update_cell(cell.row, columns[i], ticket_infos[i])
+
+
 def main():
     update_ticket = True
     update_hyperlink = False
@@ -98,12 +107,12 @@ def main():
     jira_tickets.pop(0)  # remove cell A1 which is the title
 
     if update_hyperlink:
-        add_hyperlink(jira_col_number, len(jira_tickets), wks)  # to do, simplify this step to get length easier
+        add_hyperlink(jira_col_number, len(jira_tickets), wks)  # TODO, simplify this step to get length easier
 
     if update_ticket:
         cell_list = wks.findall(PATTERN)  # find all ticket number mm-
-        update_ticket_status(status_col_number, cell_list, wks)
-
+        # update_ticket_status(status_col_number, cell_list, wks)
+        new_update_ticket_info(columns, cell_list, wks)
 
 if __name__ == '__main__':
     main()
