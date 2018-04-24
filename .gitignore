@@ -1,1 +1,5 @@
 *.log
+check_duplicate_style/.idea/check_duplicate_style.iml
+check_duplicate_style/.idea/misc.xml
+check_duplicate_style/.idea/modules.xml
+check_duplicate_style/.idea/workspace.xml
