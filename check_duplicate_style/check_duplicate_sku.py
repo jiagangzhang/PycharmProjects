@@ -3,7 +3,7 @@ import sys
 
 url = 'https://api.mymm.cn/api/v1b/search/style'
 params = {'cc': 'CHS',
-          'pagesize': 100,
+          'pagesize': 200,
           'merchantid': 4250,
           'pageno': 1
           }
@@ -17,6 +17,7 @@ if res.status_code != 200:
     sys.exit(0)
 
 # print(r.text)
+print('pagesize = %d'%params['pagesize'])
 print('total style: ' + str(res.json()['HitsTotal']))
 print('total pages: ' + str(res.json()['PageTotal']))
 page_num = res.json()['PageTotal']
