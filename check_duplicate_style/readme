@@ -1,0 +1,34 @@
+The most significant part of sending email is to pass oauth2 phase.
+Microsoft Azure AD (auth server) api does not support backend services to send email for a non-orgnization user (my personal email), so will use the following approach to send email
+
+The app is registered under dynamitez@hotmail.com, app_id and app_secret can be found in the send_email.py source.
+
+Refresh token will expire in 90 days, according to the following docs:
+    https://docs.microsoft.com/en-us/azure/active-directory/active-directory-configurable-token-lifetimes
+    https://social.msdn.microsoft.com/Forums/azure/en-US/479995b8-dccb-4ad0-82ca-e37f6886b10c/azure-active-directory-refresh-token-expiration?forum=WindowsAzureAD
+So i'll refresh the 2 tokens whenever the send_email.py is called
+
+When the refresh token has also expired, please visit the following link and grant access to get a new auth code:
+    https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=6074cf80-a32f-43be-af03-9a1d9fc4e447&response_type=code&redirect_uri=https://localhost/sendemail&response_mode=query&scope=offline_access%20user.read%20mail.send&state=12345
+The auth code is contained in the reponse: code = UUID, like this one:
+    https://localhost/sendemail?code=Mf0082c58-f2ae-b3b2-ab4e-ef2d2bd11c2c&state=12345
+Then use the auth code to retrieve the new access token and refresh token:
+    POST /common/oauth2/v2.0/token HTTP/1.1
+    Host: login.microsoftonline.com
+    Content-Type: application/x-www-form-urlencoded
+
+    client_id=6074cf80-a32f-43be-af03-9a1d9fc4e447&scope=user.read+mail.send&code=(NEW_ACCESS_CODE)&redirect_uri=https%3A%2F%2Flocalhost%2Fsendemail&grant_type=authorization_code&client_secret=hexyEUN9%3F%5D%25~rfzOJYT5832
+
+Write the new refresh token in the refresh_token file
+
+All the previous steps can be found @
+    https://developer.microsoft.com/en-us/graph/docs/concepts/auth_v2_user
+
+Other useful links:
+    https://github.com/microsoftgraph/python-sample-send-mail (very useful python sample code)
+    https://tsmatz.wordpress.com/2016/10/07/application-permission-with-v2-endpoint-and-microsoft-graph/
+    https://developer.microsoft.com/en-us/graph/graph-explore
+    https://developer.microsoft.com/en-us/graph/docs/concepts/auth_v2_service (can't use this approach for now)
+    https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-v2-limitations#restrictions-on-app-types
+    https://stackoverflow.com/questions/48342916/not-getting-a-refresh-token
+    https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds
