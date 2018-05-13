@@ -21,15 +21,16 @@ class DbConnect(object):
         self.server.start()
         print(self.server.local_bind_address)
         print(self.server.local_bind_port)
-        db = pymysql.connect(host='127.0.0.1',  # 此处必须是是127.0.0.1
-                             port=self.server.local_bind_port,
-                             user='root',
-                             password='3nations',
-                             database='mm')
-        self.cursor = db.cursor()
+        self.connection = pymysql.connect(host='127.0.0.1',  # 此处必须是是127.0.0.1
+                                          port=self.server.local_bind_port,
+                                          user='root',
+                                          password='3nations',
+                                          database='mm')
+        self.cursor = self.connection.cursor()
         return self.cursor
 
     def __exit__(self, exc_type, exc_val, exc_tb):
+        self.connection.close()
         self.server.stop()
 
     def run_sql(self, sql):
