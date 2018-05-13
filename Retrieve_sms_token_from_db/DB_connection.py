@@ -9,15 +9,41 @@ class DbConnect(object):
         self.host = host
         self.port = port
 
+    def __enter__(self):
+        self.server = SSHTunnelForwarder(
+            ('mm-ts-next.chinaeast.cloudapp.chinacloudapi.cn', 1021),  # 远端ssh server ip 和 ssh端口
+            logger=create_logger(loglevel=1),  # sshtunnel debug log 打印输出
+            ssh_username="ubuntu",
+            ssh_pkey="loadtesters_rsa-2.pem",
+            remote_bind_address=('127.0.0.1', 3306),  # 远端db server ip 和 db 端口
+            # local_bind_address=('127.0.0.1', 3306)  # 本地连接db的端口
+            )
+        self.server.start()
+        print(self.server.local_bind_address)
+        print(self.server.local_bind_port)
+        db = pymysql.connect(host='127.0.0.1',  # 此处必须是是127.0.0.1
+                             port=self.server.local_bind_port,
+                             user='root',
+                             password='3nations',
+                             database='mm')
+        self.cursor = db.cursor()
+        return self.cursor
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self.server.stop()
+
+    def run_sql(self, sql):
+        self.cursor.execute(sql)
+
 
 def connect_db():
     with SSHTunnelForwarder(
-            ('mm-ts-next.chinaeast.cloudapp.chinacloudapi.cn', 1021),  # 远端server ssh ip 和端口
-            # logger=create_logger(loglevel=1),  # sshtunnel debug log 打印输出
+            ('mm-ts-next.chinaeast.cloudapp.chinacloudapi.cn', 1021),  # 远端ssh server ip 和 ssh端口
+            logger=create_logger(loglevel=1),  # sshtunnel debug log 打印输出
             ssh_username="ubuntu",
             ssh_pkey="loadtesters_rsa-2.pem",
-            remote_bind_address=('127.0.0.1', 3306),  # 远端server ip 和 db 端口
-            local_bind_address=('127.0.0.1', 3306)  # 本地连接db的端口
+            remote_bind_address=('127.0.0.1', 3306),  # 远端db server ip 和 db 端口
+            # local_bind_address=('127.0.0.1', 3306)  # 本地连接db的端口
             ) as server:
 
         print(server.local_bind_address)
@@ -33,7 +59,7 @@ def connect_db():
         cursor.execute(sql)
         print(cursor.rowcount)
         # print(len(cursor.fetchall()))
-        server.stop()
+        # server.stop()
 
 if __name__ == '__main__':
     connect_db()
