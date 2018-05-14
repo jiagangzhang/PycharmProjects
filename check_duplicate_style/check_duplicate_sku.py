@@ -22,7 +22,7 @@ if res.status_code != 200:
     sys.exit(0)
 
 # print(r.text)
-print('pagesize = %d'%params['pagesize'])
+print('pagesize = %d' % params['pagesize'])
 print('total style: ' + str(res.json()['HitsTotal']))
 print('total pages: ' + str(res.json()['PageTotal']))
 page_num = res.json()['PageTotal']
@@ -69,7 +69,7 @@ def name_to_email(names):
     #     else:
     #         print('%s is not in the address lists, email won\'t be sent to this user' % name)
     # return emails
-    return [address[name] for name in names if name in address.keys()] # list comprehension
+    return [address[name] for name in names if name in address.keys()]  # list comprehension
 
 for page in range(page_num):
     check_sku(page+1)
