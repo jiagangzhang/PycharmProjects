@@ -1,9 +1,24 @@
+import logging
 locators = ['id',
             'name',
             'xpath',
             'link_text',
             'class_name'
             ]
+
+
+def setup_logger(logfile_name, logfile_path):
+    logger = logging.getLogger(logfile_name)
+    formatter = logging.Formatter('%(asctime)s:   %(message)s', datefmt='%Y/%m/%d %H:%M:%S')
+    filehandler = logging.FileHandler(logfile_path, mode='w')
+    filehandler.setFormatter(formatter)
+    streamhandler = logging.StreamHandler()
+    streamhandler.setFormatter(formatter)
+
+    logger.setLevel(logging.DEBUG)
+    logger.addHandler(filehandler)
+    logger.addHandler(streamhandler)
+    return logger
 
 
 def element_not_exist(driver, by, element):
