@@ -3,3 +3,9 @@ check_duplicate_style/.idea/check_duplicate_style.iml
 check_duplicate_style/.idea/misc.xml
 check_duplicate_style/.idea/modules.xml
 check_duplicate_style/.idea/workspace.xml
+config.py
+config.cpython-35.pyc
+send_email.cpython-35.pyc
+gsheet-jira/.idea
+Retrieve_sms_token_from_db/.idea
+Retrieve_sms_token_from_db/__pycache__
