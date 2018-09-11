@@ -1,4 +1,5 @@
 import logging
+import time
 locators = ['id',
             'name',
             'xpath',
@@ -36,7 +37,13 @@ def element_exist(driver, by, element):
         return False
 
 
-def test():
+def open_new_tab(driver, url):
+    driver.execute_script('''window.open("%s","_blank");''' % url)
+    driver.switch_to_window(driver.window_handles[-1])
+    time.sleep(5)
+
+
+def main():
     """
     unit test function
     """
@@ -49,7 +56,7 @@ def test():
 
 
 if __name__ == '__main__':
-    test()
+    main()
 
 
 

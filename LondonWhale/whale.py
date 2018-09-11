@@ -11,17 +11,22 @@ test_order_obj = {
             'url': '',
             'size': '',
             'color': '',
-            'name': ''
+            'name': '',
+            'quantity': 1
          },
         {
             'url': '',
             'size': '',
             'color': '',
-            'name': ''
+            'name': '',
+            'quantity': 1
             }
         ],
     'merchant': 'mytheresa',
     'total_paid': 100,
+    'order_key': '',
+    'Receiver': '',
+    'Address': ''
     }
 
 if __name__ == '__main__':
@@ -29,17 +34,20 @@ if __name__ == '__main__':
     p = Process(target=place_order, args=({},))
     p.start()
     while True:
-        # check whether new order coming or job_list >0
+        # check whether new order coming todo: 可能需要考虑队列情况，将code改为for循环
         if new_order:
             job_list.append(new_order)
-        # check whether cpu is full, todo: 逻辑有问题，需修改
-        for job in job_list:
-            if len(active_children()) < cpu_count() and len(job_list) > 0:
-                if job.merchant not 'already forked':  # todo: how to implement this method
-                    job_list.pop
-                    fork a new process and dispatch to order_worker
-        else:
-            time.sleep(10)
+
+        # check whether cpu is full  or job_list > 0
+        if len(active_children()) < cpu_count() and len(job_list) > 0:
+            job = job_list.pop(0)
+            if job.merchant is not 'already forked':  # todo: find a way to implement this method
+                # fork a new process and dispatch to order_worker
+                pass
+            else:
+                job_list.append(job)  # send this job to the bottom of list
+
+        time.sleep(10)
         # p = Process(target=place_order, args=({},))
         # pass
 
