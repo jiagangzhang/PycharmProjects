@@ -34,7 +34,8 @@ def mytheresa_add_to_cart(sku_list, driver):
                 logging.WARN('The ordered size is not available for sku %s' % sku.name)
                 # take screen shot
                 raise Exception('The ordered size is not available for sku %s' % sku.name)
-            index = size_list.index(order_size[0])  # todo: 现在使用第一个匹配sku.size的尺码放入购物车，可改进
+            # todo: 现在使用第一个匹配sku.size的尺码放入购物车，当size=5、S/M/L/XL 或S/M（网站上text为S-M）时会下单错误
+            index = size_list.index(order_size[0])
             available_sizes[index].click()
         else:
             logging.INFO('no size selection, will go with the default size')
