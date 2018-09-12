@@ -25,29 +25,31 @@ test_order_obj = {
     'merchant': 'mytheresa',
     'total_paid': 100,
     'order_key': '',
-    'Receiver': '',
+    'Customer': '',
     'Address': ''
     }
 
 if __name__ == '__main__':
     job_list = []
-    p = Process(target=place_order, args=({},))
-    p.start()
+    # p = Process(target=place_order, args=({},))
+    # p.start()
     while True:
         # check whether new order coming todo: 可能需要考虑队列情况，将code改为for循环
         if new_order:
             job_list.append(new_order)
 
         # check whether cpu is full  or job_list > 0
-        if len(active_children()) < cpu_count() and len(job_list) > 0:
+        if len(job_list) > 0 and len(active_children()) < cpu_count():
             job = job_list.pop(0)
-            if job.merchant is not 'already forked':  # todo: find a way to implement this method
-                # fork a new process and dispatch to order_worker
+            active_process = [pro.name for pro in active_children()]
+            if job['merchant'] not in active_process:
+                """
+                fork a new process with the merchant name and dispatch to order_worker
+                p = Process(target=place_order, name=job['merchant'], args=(job,))
+                p.start()
+                """
                 pass
             else:
                 job_list.append(job)  # send this job to the bottom of list
 
         time.sleep(10)
-        # p = Process(target=place_order, args=({},))
-        # pass
-
