@@ -44,16 +44,17 @@ def mytheresa_add_to_cart(sku_list, driver):
 
 
 def mytheresa_verify_cart_total(sku_list, driver):
-    names = locate_s(driver, By.CLASS_NAME, 'product-name')
-    sizes = locate_s(driver, By.CLASS_NAME, 'product-size')
+    cart_names = [n.text for n in locate_s(driver, By.CLASS_NAME, 'product-name')]
+    cart_sizes = [s.text for s in locate_s(driver, By.CLASS_NAME, 'product-size')]
     removes = locate_s(driver, By.CLASS_NAME, 'product-cart-remove-item')
-    if len(names) < len(sku_list):
+    if len(cart_names) < len(sku_list):
         raise Exception('Cart quantity too little')
-    elif len(names) > len(sku_list):
+    elif len(cart_names) > len(sku_list):
         sku_names = [sku['name'] for sku in sku_list]
-        for name in range(len(names)):
-            if name not in sku_names:
-                pass
+        for i in range(len(cart_names)):
+            if cart_names[i] not in sku_names:
+                removes[i].click()
+                break
         return False
     else:
         return True
