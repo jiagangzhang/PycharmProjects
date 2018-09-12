@@ -1,11 +1,29 @@
 import logging
 import time
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 locators = ['id',
             'name',
             'xpath',
             'link_text',
             'class_name'
             ]
+wait_time = 5  # set to configable number later
+
+
+def locate(driver, by, path):
+    return WebDriverWait(driver, wait_time).until(
+        EC.presence_of_element_located((by, path))
+        )
+
+
+def locate_s(driver, by, path):
+    """
+    :return: list of elements
+    """
+    return WebDriverWait(driver, wait_time).until(
+        EC.presence_of_all_elements_located((by, path))
+        )
 
 
 def setup_logger(logfile_name, logfile_path):
@@ -22,16 +40,16 @@ def setup_logger(logfile_name, logfile_path):
     return logger
 
 
-def element_not_exist(driver, by, element):
-    return not element_exist(driver, by, element)
+def element_not_exist(driver, by, path):
+    return not element_exist(driver, by, path)
 
 
-def element_exist(driver, by, element):
-    if by.lower() not in locators:
-        raise ValueError('Please provide legal method name, the method provided is by_%s' % by)
-    locate_method = getattr(driver, 'find_element_by_' + by.lower())
+def element_exist(driver, by, path):
+    # if by.lower() not in locators:
+    #     raise ValueError('Please provide legal method name, the method provided is by_%s' % by)
+    # locate_method = getattr(driver, 'find_element_by_' + by.lower())
     try:
-        locate_method(element)
+        locate(driver, by, path)
         return True
     except:
         return False
