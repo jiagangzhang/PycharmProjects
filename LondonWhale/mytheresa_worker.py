@@ -45,22 +45,35 @@ def mytheresa_add_to_cart(sku_list, driver):
 
 def mytheresa_verify_cart_total(sku_list, driver):
     cart_names = [n.text for n in locate_s(driver, By.CLASS_NAME, 'product-name')]
-    cart_sizes = [s.text for s in locate_s(driver, By.CLASS_NAME, 'product-size')]
-    removes = locate_s(driver, By.CLASS_NAME, 'product-cart-remove-item')
+    remove_buttons = locate_s(driver, By.CLASS_NAME, 'product-cart-remove-item')
     if len(cart_names) < len(sku_list):
         raise Exception('Cart quantity too little')
     elif len(cart_names) > len(sku_list):
         sku_names = [sku['name'] for sku in sku_list]
         for i in range(len(cart_names)):
             if cart_names[i] not in sku_names:
-                removes[i].click()
+                remove_buttons[i].click()
                 break
         return False
     else:
         return True
 
 
+def verify_cart_total_wrapper(sku_list, driver):
+    for i in range(5):
+        if mytheresa_verify_cart_total(sku_list, driver):
+            break
+        time.sleep(5)  # 等待购物车页面重载
+    # 如果5次删减仍过多，直接取消下单
+    cart_names = [n.text for n in locate_s(driver, By.CLASS_NAME, 'product-name')]
+    if len(cart_names) > len(sku_list):
+        raise Exception('Too many items in cart')
+
+
 def mytheresa_verify_cart_item(sku_list, driver):
+    cart_names = [n.text for n in locate_s(driver, By.CLASS_NAME, 'product-name')]
+    cart_sizes = [s.text for s in locate_s(driver, By.CLASS_NAME, 'product-size')]
+    cart_qtys = [s.get_attribute("value") for s in locate_s(driver, By.XPATH, ".//div[@class='cart-qty-wrapper']/input")]
     pass
 
 
@@ -73,17 +86,17 @@ def pay_paypal():
 
 
 def place_mytheresa_order(order_obj):
+    # call api记录开始下单
     try:
         driver = webdriver.Chrome('/Users/jiagangzhang/workspace/chromedriver')
         mytheresa_add_to_cart(order_obj['sku_list'], driver)
-        for i in range(5):
-            if mytheresa_verify_cart_total(order_obj['sku_list'], driver):
-                break
-            time.sleep(5)  # 等待购物车页面重载
+        verify_cart_total_wrapper(order_obj['sku_list'], driver)
 
+        # api记录confirm
     except Exception as e:
         logging.exception(e)
         driver.save_screenshot(order_obj['order_key'] + '.png')
+        # 调api记录下单异常，需人工介入
     finally:
         driver.quit()
 
