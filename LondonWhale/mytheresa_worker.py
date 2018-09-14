@@ -1,5 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+import re
+import json
 import time
 import logging
 import common_util as cu
@@ -7,9 +9,25 @@ from common_util import locate, locate_s
 
 
 url='http://click.linksynergy.com/link?id=ynYrPp*y8jg&offerid=572016.13317151633&type=15&murl=https%3A%2F%2Fmytheresa.commander1.com%2Fc3%2F%3Ftcs%3D3504%26chn%3Daff1%26src%3Dlinkshare%26cmp%3Daff_linksh_au%26tarea%3Dhk%26ptyp%3Dfeed%26pub_id%3D%5BSITE.CODE%5D%26pub_name%3D%5BSITE.CODE%5D%26pub_type%3D%5BSITE.CODE%5D%26feed_num%3DP00294590%26feed_des%3DGucci%26feed_mwg%3Dshoes%26url%3Dhttps%253A%252F%252Fwww.mytheresa.com%252Fen-hk%252Fgucci-leather-sandals-945342.html%253Futm_source%253Daffiliate%2526utm_medium%253Daffiliate.linkshare.au'
+sizes_in_stock = []
 
 
-def mytheresa_add_to_cart(sku_list, driver):
+def json_finder(input_text):
+    pattern = r'{.+}'
+    script = re.findall(pattern, input_text)[0]
+    return json.loads(script)
+
+
+def get_available_sizes(driver):
+    global sizes_in_stock
+    js_script = locate_s(driver, By.XPATH, './/div[@id="mythccconsole"]/following-sibling::script')[0]\
+        .get_attribute('innerHTML')
+    js_json = json_finder(js_script)
+    product_id = js_json['product']['id']
+    sizes_on_stock = js_json['product']['sizesOnStock'].split('|')
+
+
+def myth_add_to_cart(sku_list, driver):
     for i in range(len(sku_list)):
         sku = sku_list[i]
         if i == 0:
@@ -43,7 +61,7 @@ def mytheresa_add_to_cart(sku_list, driver):
     locate_s(driver, By.XPATH, ".//div[@class='buttons-set']/a")[0].click()
 
 
-def mytheresa_verify_cart_total(sku_list, driver):
+def myth_verify_cart_total(sku_list, driver):
     cart_names = [n.text for n in locate_s(driver, By.CLASS_NAME, 'product-name')]
     remove_buttons = locate_s(driver, By.CLASS_NAME, 'product-cart-remove-item')
     if len(cart_names) < len(sku_list):
@@ -61,7 +79,7 @@ def mytheresa_verify_cart_total(sku_list, driver):
 
 def verify_cart_total_wrapper(sku_list, driver):
     for i in range(5):
-        if mytheresa_verify_cart_total(sku_list, driver):
+        if myth_verify_cart_total(sku_list, driver):
             break
         time.sleep(5)  # 等待购物车页面重载
     # 如果5次删减仍过多，直接取消下单
@@ -70,10 +88,15 @@ def verify_cart_total_wrapper(sku_list, driver):
         raise Exception('Too many items in cart')
 
 
-def mytheresa_verify_cart_item(sku_list, driver):
+def myth_verify_cart_item(sku_list, driver):
     cart_names = [n.text for n in locate_s(driver, By.CLASS_NAME, 'product-name')]
     cart_sizes = [s.text for s in locate_s(driver, By.CLASS_NAME, 'product-size')]
     cart_qtys = [s.get_attribute("value") for s in locate_s(driver, By.XPATH, ".//div[@class='cart-qty-wrapper']/input")]
+
+    if cu.element_exist(driver, By.CLASS_NAME, 'error-msg'):
+        # 库存不够
+        raise Exception('Not enough stock for ')
+        pass
     pass
 
 
@@ -87,9 +110,10 @@ def pay_paypal():
 
 def place_mytheresa_order(order_obj):
     # call api记录开始下单
+    # log 记录 order_obj
     try:
         driver = webdriver.Chrome('/Users/jiagangzhang/workspace/chromedriver')
-        mytheresa_add_to_cart(order_obj['sku_list'], driver)
+        myth_add_to_cart(order_obj['sku_list'], driver)
         verify_cart_total_wrapper(order_obj['sku_list'], driver)
 
         # api记录confirm

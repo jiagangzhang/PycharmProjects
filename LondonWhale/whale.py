@@ -9,6 +9,7 @@ test_order_obj = {
     'sku_list': [
         {
             'url': '',
+            'SkuCode': '',
             'size': '',
             'color': '',
             'name': '',
@@ -16,6 +17,7 @@ test_order_obj = {
          },
         {
             'url': '',
+            'SkuCode': '',
             'size': '',
             'color': '',
             'name': '',
