@@ -1,0 +1,308 @@
+<Account>
+<Group Name="物流部" GID="108"></Group>
+<Group Name="编辑部" GID="107">
+<User Name="bobo"></User>
+</Group>
+<Group Name="市场部" GID="106">
+<User Name="flora"></User>
+<User Name="isabelle"></User>
+<User Name="amber"></User>
+</Group>
+<Group Name="财务部" GID="105">
+<User Name="Caiwu"></User>
+<User Name="isabelle"></User>
+<User Name="amber"></User>
+<User Name="jinyingying"></User>
+</Group>
+<Group Name="人事部" GID="104">
+<User Name="isabelle"></User>
+<User Name="amber"></User>
+<User Name="yuanqiaoying"></User>
+<User Name="zhanghan"></User>
+<User Name="zhudi"></User>
+</Group>
+<Group Name="客服部" GID="103">
+<User Name="isabelle"></User>
+<User Name="amber"></User>
+</Group>
+<Group Name="信息部" GID="102">
+<User Name="hua"></User>
+</Group>
+<Group Name="产品部" GID="101">
+<User Name="cherry"></User>
+<User Name="Fangfang"></User>
+<User Name="hua"></User>
+<User Name="isabelle"></User>
+<User Name="amber"></User>
+</Group>
+<User Name="admin" FullName="" EncryptedPW="ap/vMcdCE+yBM0mmGMjqPfafoyvnBpWJFV9VJ+uLWKon6iQWR8eqAO14A/ogGaRmFquxnXVYF5LvWAsNG2+CYg==" uid="1000" ClearPW="0" PCadd="0" isAdmin="1"></User>
+<User Name="amber" FullName="Amber Xiang" EncryptedPW="IfiJMuZoHa/XEmKAANXEDcgtYzyRzY55ZrD409/c4gl4x2ixy9fbnvZncx67/RNj9mYQlejuiK0YA/vrFbtxvw==" uid="1002" ClearPW="0" PCadd="0" isAdmin="0"></User>
+<User Name="hua" FullName="Hua Wang" EncryptedPW="IPG3CflJM93vMWKBGtPKXC8m3eIsQmjr/8FYyTYxNTKHoOr3BRubMEt5veyBqslCHOO9evE/EEtuuwT3gNJuNA==" uid="1003" ClearPW="0" PCadd="0" isAdmin="0"></User>
+<User Name="isabelle" FullName="Isabelle" EncryptedPW="PfWfH7thDa+OE2mGANzKPeEZ+PwfSH09EgN9kssg6K4vy2qlfwYVaGcQvHrxmhVyiCUotjKOuJCyghBrVutTSw==" uid="1005" ClearPW="0" PCadd="0" isAdmin="0"></User>
+<User Name="bobo" FullName="bobo" EncryptedPW="FfiUF/t2FMj6FWmGH9DKPUmvPY8t25l7bufUf8raFgVQm4D9MUpb282mYgBVvYzwfK0URID2jsl0l/k7uhEOcg==" uid="1007" ClearPW="0" PCadd="0" isAdmin="0"></User>
+<User Name="flora" FullName="flora" EncryptedPW="EIiRDOk8PqqFJWmGF9DKPY6irYC424LwlDc4IqzPVrZ+gxPXSplfeKtTk3xr5ANiH3ZUJ0yciVuKZAYVeGtgfQ==" uid="1008" ClearPW="0" PCadd="0" isAdmin="0"></User>
+<User Name="Fangfang" FullName="Fangfang" EncryptedPW="IfHuIftJOaLzJDLfCsyVB77q/LEk6Un7l0IikRjyi+IaYOs+VdiEHo6NvPdBC12TO7b69YkAAwZozeDsfUAxCw==" uid="1011" ClearPW="0" PCadd="0" isAdmin="0"></User>
+<User Name="Caiwu" FullName="Caiwu" EncryptedPW="Pa+kNN0+Hd35OGGIF9XHG++htARQU8k8Oqs6UxEKTtnmWL19QDQH+i3vO2KsKUWLtaqDpZriPtcLnnIeS62knQ==" uid="1013" ClearPW="0" PCadd="0" isAdmin="0"></User>
+<User Name="cherry" FullName="cherry" EncryptedPW="PLKyc8R9K/7kY2mGGcbKHUVcn2UdRl2pHWjHalJjI2IWCNxLcMrb+wiyvWpeCsxsOpYNiTeJVD/4W2lnexgNhg==" uid="1015" ClearPW="0" PCadd="0" isAdmin="0"></User>
+<User Name="yoyo" FullName="yoyo" EncryptedPW="H67tc+1DGKvwAmGIG87HG4C3tizJmtqBGCARbMvc4pYyYJiY5LIRXkG3V2+ogGT6kL3uirk7kO7LASESKX1jTA==" uid="1020" ClearPW="0" PCadd="0" isAdmin="0"></User>
+<User Name="grace" FullName="grace" EncryptedPW="NoueJsBYNO/BE2mGAcbKPbccBxp8rVHNRTqfc30Cr0UHChPU8wMMtkCKrgEQBmyydflEi0AggCdjayyBQeP+Hw==" uid="1024" ClearPW="0" PCadd="0" isAdmin="0"></User>
+<User Name="hr" EncryptedPW="IbLlAL14H/P3AWGIF8rHG0yTr8WCgguPpId95wqIXHLmlm1uYKHzgd68fNomUzj3vugzYek2I4isdF4VNHEdkQ==" FullName="人事" uid="1029" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="yinyanjun" EncryptedPW="MqmOHdBgGej/YWmGBNPKPWxRQ/M54Dkv/cUzGvFA6vtPaSAp6cFWaWcz0LaG/SSgOizyYt86b+JF7N/hWz7MSw==" FullName="殷彦君" uid="1030" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="ming" EncryptedPW="BpqNJvxvJ9XpNWmGAsHKPY7XkCvqwwkbQ0dZRBQEddARX9P4n/cU22W6IxM/a9KSC7Uz8qAl+9GdTOQ+kWaCNA==" FullName="" uid="1031" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<Group Name="线上运营部" GID="109">
+<User Name="ming"></User>
+<User Name="vivian.yang"></User>
+</Group>
+<User Name="jinyingying" EncryptedPW="KaOFC8JqNN7zIWmGBNTKHdmp7BZy5ecwGhDtiyAGIUunqWsxbAjok0T65zp6ZbHCkb74Qtx3R92xtQ0R0cJ8pA==" FullName="金莹莹" uid="1034" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="lishuo" EncryptedPW="OIWWDP5vJvfgAGmGF9HKHcTjwxVr2axS4OSm2CIV7XeUVZJJwDhl6Y+dFqbshNtLtsTmmCq3kCa4YJkqQWdaaQ==" FullName="李硕" uid="1037" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="sunruiqi" EncryptedPW="ZJiMceJfPKnTIkGIHtTHG9DU+cSxlQ5lceFQZK6TkRWWWfaTuorZvwSjsKe9IuWatIcwrU6eyHxZ9bLAkAZpnA==" FullName="孙瑞琪" uid="1039" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="yuyang" EncryptedPW="Z5mCCOo2AcrzBmmGAdbKPRufdPO90JDwD/99EUOY7uuqtp8mgt24Zz+HHPnnAhkyglljlZlpQyqI4Itg3inj6Q==" FullName="于杨" uid="1040" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="huanghua" EncryptedPW="MrDrDcZ7Bs7UL2aeAOrOXpbu+uzv4Es897Va+bgo0uSPnkTjHMcOah4ieCsDFNa5UQDoTY2trqlsoTEbGi+h8A==" FullName="黄桦" uid="1041" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zhangtao" EncryptedPW="Yvm/L99qOezzYGmGGMbKPY3b2R1tNdPbVGObzfCcPgQ7+jaKNwZkOw9K8qHZk7KwuKwkGcGRCkObKKxU6kK2Ig==" FullName="张涛" uid="1042" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="liwei" EncryptedPW="G7O7CsBoMPbzMWmGHMbKPc4gCWADq9JbwsdRq1DA5SIfvb80AUat7OsCZkUu7rwV5gRmI7rN2thoi2WOJ233mw==" FullName="李玮" uid="1048" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="wen.zhang" EncryptedPW="Y6nqLPZrY8DiIUGIHtLHG7iTSeI9qrAsKz0ZbDeR7pvh9Ivj3oWlWNxYriIQf4sSQRMBapUVHNWNSOwAl8t8Sg==" FullName="wen.zhang" uid="1052" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="michelle" EncryptedPW="AJKLINtfI9L7I2mGAtLKPSXukpei6gl0xlvLtlLRbr5uFpse03eqQJxubY23Tj+L+nB1bk8dS0e1VQHUWL/C4Q==" FullName="朱玮" uid="1056" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="diaoxingyue" EncryptedPW="K7OQd9BpANb1HmmGGMLKPSM37xZWheDD+5Vz9+2pjCajDYVopWY9ItiuzlHXTkTsUgKQWaFa9AcspupbgczQyg==" FullName="刁星月" uid="1063" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="hanyayang" EncryptedPW="OZK6fvo2ZMD0Z2mGGtfKPUm9h8BL6C98lRa0h4ZCHHQ+O6KA7ftG6yR7Iyup5FMsWkctj9mpalaw/KbW1UgNNA==" FullName="韩娅泱" uid="1064" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="niwenjie" EncryptedPW="Eo/rFMI7KvDbOGmGGs7KPYEvazpdC6n+mpzTEBO3DHtg2cZAUnVX4IRYVKGrHDuXDFqFg5FdgSPscvucJRgbNQ==" FullName="倪文杰" uid="1065" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="allenwu" EncryptedPW="BLOlKOxUAMyCIGmGAMjKHYaf+PK+Lzd6jBDcV5Y+GRZ1gYoamQJWtfX89WC4Qln0p09ojPTSztbjmmMPgGkCEg==" FullName="吴俊" uid="1066" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="libinkang" EncryptedPW="J7DvLLlEFujuLmmGGczKPbIPL+fHs3EhDhRylREPxqyo8muFY7tI1b9QL0AqeLSvNcsDKI5YC+593l3BsXehnQ==" FullName="康利斌" uid="1069" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="mimi" EncryptedPW="DIynFd5ZZa/REWmGG9TKPbVv6NUIqVACjsBA5/SHrD2ibfmiD0eqgPT4Jd0e9VrBeeCieaKOexLR7+A52JRr2w==" FullName="mimi" uid="1071" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="paulxiong" EncryptedPW="GpG8MMVfHcrABGmGH9TKPdQNdZ/aEik+5PeeWTCJ5jAnJZyvolEi/NzN9flu14DXxyIhv29Hq+xWeKAxkguRUw==" FullName="熊雷" uid="1073" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zhangtianqi" EncryptedPW="NKnvdMRoFeqEOzDYGcOeXvpAxvcMO9Nra4dQbljUG9337t3c8LALRi4EAiKD97FMUz282LWrBE3oHT+koXZOEw==" FullName="张天淇" uid="1074" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="lucy" EncryptedPW="NrOTc95JDdvABGmGF9fKPRvtFdnyt+zIkxBxU6sw0dAmMFmH8yiJ1jxTD9MpeA0Hie+cFywx3ggVc7giGzUHUg==" FullName="露露" uid="1077" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zhangdi" EncryptedPW="EviEENhYO6yHZmmGF8nKPXIFKU9oJBh6fqNp/Na465E80JY8mlhQxvNCbgLUNe2LXc/X+ccMV0KBPd+/cjsogQ==" FullName="张迪" uid="1079" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="wenshuting" EncryptedPW="O6nuE+g3J+DbNWmGAtLKPZD6VJsuvLqB65HveIXoY2UlVibka3IjCFKnMO5YuovE3nfQwlDbJYr82cd+gU5t2g==" FullName=" 温舒婷" uid="1080" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="duanmushimeng" EncryptedPW="EoWXK+JKBuv5GWmGH93KPWYsbR2UcXUWBfKkEpMf/QzO6eHL8YqTuFRxgKDIBovx+mrdiGww4A+jDyRRwdv8RQ==" FullName="端木诗梦" uid="1081" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="lindaluo" EncryptedPW="JLOrD8g7Y8z/FWmGBN7KPaWcX8fAjH8Ih/mNgPf/32Lfe3jbCaF8i6POWqcpcxCzwrQE2wimT8iXhYWLtkD+VQ==" FullName="" uid="1072" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="guchangjiong" EncryptedPW="EY+3d8tBBd3lOWmGGdfKPfWv3IaRY9sbCAzKLip9Mowzqgummei2iRNpQ8xR1KydmT3Qx2SVhDuPsUbbyFQ4xg==" FullName="顾昶炅" uid="1033" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="baoyu" EncryptedPW="YPewBMVnI+3Db2mGHtbKPfGc+lY3CB6wJW3cKvqNWaid3zDyMlxX29k57qVpdefeZFaXrssDMkCcP8rAe7jJvg==" FullName="鲍煜" uid="1055" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zhengyafang" EncryptedPW="MI+THrc5PvCAN0GIGsPHG1r6QspFYb/YwoLKGqqTRARLS8Ml9UabpawmDlECnNo4yDuztSldLPl21iVSNQGQVg==" FullName="郑亚芳" uid="1086" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="fupenghua" EncryptedPW="GrqzDsNbMfX6b2KeAt3CDuzQPcFtck67PRVXLsIgUrn48Z/CSwYNWqKjBwvN34kjUCNrdMQXvXla0Mvi1RvLiw==" FullName="付朋华" uid="1087" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zhangying" EncryptedPW="PI2Idss4Z/3+L3TdH8nBWS02O+bKXhT5NRvQhjwKiJTqby6Htb3GFYV3J4HOVbeCCnQ0I/EZcQybw8nbx78f/g==" FullName="张颖" uid="1089" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="xionglei" EncryptedPW="IPKsKM1hBe7iN2KeA93CDiw5HOtr8hhBsoT8dLxX+Da4hciZM0L9MMl+o6e7g8YjH10HXS20Z/FTCR39rAebQw==" FullName="熊雷" uid="1091" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="huxuejun" EncryptedPW="JJGIDeVpYOr6YWmGAd3KPfbQxrxYSgn57fJYUICpKwSh+mbylTsGxWCdjlWRtW742HTVD2nJ7JrFLxge1xJq3Q==" FullName="胡雪筠" uid="1097" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="wangshun" EncryptedPW="ZIjpI75DYMrOZGmGHdPKPRwyioCSsluZpPW1kRtUDmPMHu5XaCmPz8Q6B6JpI6wjzPzyYLSbdZzp3ZK+7kmEMg==" FullName="王顺" uid="1105" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="skye" EncryptedPW="AK+NANhqBvXTEWmGAsbKPdsdTbBEQE4mAOaG9LqYOtpZVDx718UKSOCykurMNgmfWhdiuFVRldvVbacXitMSuQ==" FullName="skye" uid="1106" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="chosen" EncryptedPW="F4KZPrhqKqv5ImmGH8nKPcfh46BiGxgTn6ewJeYij8IyQtIx5RHusZ1HWrF0C2voDVplP4JhZWLkwuEQmreTqw==" FullName="邱晨超" uid="1107" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="xuruochen" EncryptedPW="NLabdLc+AuvBMzXYCc6SWw91w/86HKWx6QWnAF2Rrj76xjyYU/gynMrJ858mQ+cnsxaRdqO30bPNY8DUnX1z9g==" FullName="须若晨" uid="1108" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="chenxingyu" EncryptedPW="F/mwHfthKMqEDmmGF9LKHcy8+1ciPJS6iYQqwe4QKYCEJDjQSv6zW1opFyHWMWxzfr3zBmdupg1WoEYqtOr+8g==" FullName="陈星宇" uid="1110" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="redwang" EncryptedPW="HLexBLdcGMLTJWmGAMXKPe82viFJEtW9nwYt2LWqyDTeV647xKJDoFViracr3j6VheDrSHDwrDRZ/0bBU2okRw==" FullName="王子言" uid="1111" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="guoyulong" EncryptedPW="BKuSKedMF8j8GmSIAMbJGlI2UkTdinLpBbmXJ8gBKJ+4P+nNFNXhG6MsaUBsWe1iyAGxNXZlxGPWdYnZiJOoGw==" FullName="郭玉龙" uid="1113" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="chenli" EncryptedPW="C4GydsQ2DdKOB2mGHsnKPSoWvs3UhVktx1M1eLvXOSDnyAMthJi+xx/Zcxrs1aanJDtNZBdHfO4RAg4wkvHwYA==" FullName="陈莉" uid="1117" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="jackeyqiu" EncryptedPW="PvOsEcN4O+7TNWmGAM3KPT2uYYvPLXj35BmCyibENNPYIrz8/KlhVKltLnRUiz6vjX+s5PIAdmpzr5F1RNMs1w==" FullName="仇晓斌" uid="1118" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="ryan.zhang" EncryptedPW="G4yHNdZLM9j4IzLfHtOVKMlshXRMcYA5Bd9j3ElG/kBTi2AN5VEB3oroVG02Cq3yKJxzXQ5+9QJMxvIzGPUmyw==" FullName="张晟栋" uid="1119" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="ued1" EncryptedPW="ZK6fdc03a/PUDG6EBsbACQSSdtiPO7T9Dm9SCZRywzQBnd0raL57L2SLpJJUWJUEjojh7hUAuGhPKUsdU0wK9A==" FullName="ued_temp_ID" uid="1121" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="nuomi" EncryptedPW="OpKQAN18YM7zZG6EAcDACW+4pbyq2FomEaVJ+vfzoYPdSqA6ucQ4n7EOrskTTckSu/58ydY5uJSIrxIRlXPnDg==" FullName="糯米" uid="1123" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="yangyuejun" EncryptedPW="FobufrtCJcnVITbbAtaRUN4khzEe1J+dM6FEDrfnlf/Pt0opmbdfzZgCWdaJm9NGJ2QNxNcdC4FKx+gWCznabg==" FullName="羊跃军" uid="1124" isAdmin="1" PCadd="0" ClearPW="0"></User>
+<User Name="liyi" EncryptedPW="YaG3IvtNAM7bE2mGGdPKPUZGArdxRPDoEpIAVyhGGDuoXXKk3is2zPTkGbba3pxosKF4kj38G84jphK9Y3cHbQ==" FullName="李怡" uid="1125" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="UED2" EncryptedPW="PKezIeRaYM+AJjbcG8mWUf+tN58Tp71Bo/5x66HB/B89u+Y3z085CgQmWkRYJYFu76MsqtCexFCvquNwaYSmqg==" FullName="UED2" uid="1126" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="huaquan" EncryptedPW="IJqtE8JWMN/TbzXYAsKSW6/8PSEOgKXaUiVECOe0cEq/7J8f/IhOlWco3s1CrhLFuwKA2CeSSylpf6Pj/T8pnA==" FullName="华全" uid="1130" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="yujing" EncryptedPW="HPOfdsNjM/7Ub2mGF83KPcCXmeTBCH20MVIJVavxV9B2tvRZczg65z4OKD0WqTLfJUVBJBEpQEjOldhfkXFVDg==" FullName="喻靓" uid="1131" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="huyan" EncryptedPW="MJm0Hu1qF9zCH2mGAtXKHb0CJatsYKqa8f2E0lO1jIhKj6t/TKOG/ZwFBSg607R0aoBE0Yh1AGkHz9aNe5x2Og==" FullName="胡燕" uid="1132" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zhumengjie" EncryptedPW="IJmFGLZaEPPwHzLeG92QXgUviUcaVHNtAt4NrYxKaEY3UbtyIlz3E6+ZR567D4vTM03f6Lant3JBnkHMuwr8YQ==" FullName="朱孟杰" uid="1133" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="duanmushiyi" EncryptedPW="BKrsKM14H+jdA2mGGNXKPTN6Qq+t6wc8juQ3VNMvV77iZfX3ckpnlnOITQf4Ik53v2ibIQditv7ojZq4rpuL0w==" FullName="端木诗毅" uid="1134" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="shellyzhang" EncryptedPW="Y/GyItw+GOrpM2mGHcvKHamNn97gdkEPeEgc8Pz276tH3wFb7xqMuTJoiB+QcVNDDRQWNGd7UeBVZQQa24eRsg==" FullName="张莹" uid="1135" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="jinjuanjuan" EncryptedPW="PbaCKdpiJ/7zPjXYAcWSW+uEHlMt3EVy77H4LUoGdo5OB+mKPbldE9nZ2EVVuMoCSk6ngk5K/NxPsmVW6OyY4g==" FullName="金娟娟" uid="1139" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="qiuxiaobin" EncryptedPW="ZriJJtpCMdPBJWmGG8DKHcs5ydXYoet/wjNB/SO+4UprbrfmwODYKBSaQPfmllgKrjjYKyPbUQWhE+wp6MbsFA==" FullName="仇晓斌" uid="1050" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="liuxueyan" EncryptedPW="P/nlcupBK9fdATfYGMmSXhDKqmlJzc9Jm0nM4K0cPRwtGWHwbh2J4ili1naSRYxa73u4BksvBQ4WyGlboaxViw==" FullName="刘雪燕" uid="1060" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="wangrongrong" EncryptedPW="IveNI/hYBvHwG2mGF9XKPcHOCRqjBaFHbATRP4yFIi1EkWlt4kR5aGSWEi/mzBl/rWxiT6CE3vY7J1BLMM23yw==" FullName="王绒绒" uid="1092" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="charlenezhang" EncryptedPW="CoaHdbt5aszaFWmGGs7KPY/0W7vFupJnZri/1FA8vK+s/svC8tahRzQ+keUgVJoqQbAu9ntcAeWsZqfVhHYYSA==" FullName="张依岑" uid="1112" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zhangyuanli" EncryptedPW="ZYGVCN45N8rGDmmGH8nKHQc2FDmfO52m3WaYFOx/tAhtd6gqGP2wKgXrmz1Y1YnQQ8tEPHIfk/HG7Du6W5FyQA==" FullName=" 张圆丽" uid="1116" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zhangchong" EncryptedPW="FIWVBuBAZuiCCWmGH8jKPUhZqOIXg4nhEd/cFe4xzqYzIqWBGfVgoRzQrYZOQNIQk10Tox633Fb6oH2WJQiI4Q==" FullName="张宠" uid="1142" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zhoulong" EncryptedPW="JKu5D9h6O6/MImmGA93KPWZLxaR0y9+8YOzaKbnUkzeDWxGXtFiX3GnA7z4v3l6h8yzy4LmSjb86EKkgbgirJA==" FullName="周龙" uid="1067" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="sharonliu" EncryptedPW="Ep/pLsw4AvTOIGmGHsHKPR5gYCSZJ9iUXnI80jg3eXGy8UMuQzASY8L4muS/CcAMC6yDEd+1B1v+abG1ImBpRA==" FullName="刘晓妍" uid="1143" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zhaoxiaoyue" EncryptedPW="P4q1H8lUKKLuH2mGFsnKPeHjH72YEhlHPQo4HsMSj4wWiRss/Nuqhv5GhRDSFIdX2j71tAxBtlrW//WU1T/cPQ==" FullName="赵晓月" uid="1144" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="charlotte" EncryptedPW="FYK/ALdZNevxPmmGBNzKPT8Fj6Eu9kdZGmfbA4Kc03VHG2/jO6zBXXJ7pb3s4YV8HIE6nCqskxqrBFHqkdUS1g==" FullName="charlotte" uid="1154" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="xuying" EncryptedPW="ZaGQIOE7PNPzPGmGA8rKHctr6qpKKMm4ma+wShrEOWMGxGk57/MFGfHcVMdyukk0p4FZN6JFpn+OIbbfWKlD6A==" FullName="许盈" uid="1075" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="liyujie" EncryptedPW="YozkHftpYejEIzLdAMaXUP6g495uoCwVgsgKnS7TRaAXJu5q3yeCYOLYsjk44tE6i7/3sv9r4gZO1lkUrZh7/w==" FullName="李钰婕" uid="1158" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="shidaini" EncryptedPW="YPiTNMo5M9b+IGmGGdfKHRSP2nGVyiX0x5vcCjGClRJd/kXcItW2G5IC4OVrhOB96pxjIPJ3DncBCZH17K7LZQ==" FullName="施黛妮" uid="1159" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="chenzhijuan" EncryptedPW="CfGYFrk6N9j5GGmGAdLKHc+GQkrUMRJQL6Xop2ayQWPxRGiH49P3tGmcGaRA10/cmlYdUBDsS9vkyiVielqLvw==" FullName="陈志娟" uid="1164" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="yangxing" EncryptedPW="FpS7DPtMZND+AWmGGcnKHejrH5IePwtzxzAX6zORWwzwsdbma52LYB61PGF/3F1gDbwatUSDO5zQxXf6Mq6Ilw==" FullName="杨星" uid="1165" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="xujun" EncryptedPW="ZPGPGLY6PfTkAmmGAN3KPSbWyGCDkbAc6oK1PsDPF6hvn210qbBvLBRt4YWRErvyHXix6VUlbkFqt9Ts4vMcGw==" FullName="徐俊" uid="1167" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<Group Name="家纺家饰共享文档" GID="111">
+<User Name="huyan"></User>
+</Group>
+<User Name="dingchengzhuo" EncryptedPW="Z4msNOZGEMvvA2mGAN7KHUFNWEm+CFUakaza0U1U5QkhOMjVH17c8BYV7jPYWJAvYAadmLdn/Atr7RdQt17uUg==" FullName="丁成卓" uid="1170" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="shihongyang" EncryptedPW="BpGZcv5mB9zmYGmGF8nKPflrkxpmIK1DUY2XcKAi5HITJc0a4Ay9KK+xIfwvYlQjxTUOFzdXrtBQX57BXYvKuQ==" FullName="施弘扬" uid="1169" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="theresache" EncryptedPW="ZoLtP+Y2BMKGBmmGH8XKHVITGomnCkXVCqCiE8U+LOXf4YbwtcaN9Lbw1ezOfulz/FsZdF6L2sbfs0uzEpKEcw==" FullName="车云帆" uid="1175" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="ninaliu" EncryptedPW="HpC6d+o4OsvAMzLeAsWVWPoPVMLQZ4NIfPGcbBlLuKKu3iMw29viz4o/jDjKIJqa9tTwUpvJ0Te0G+qeC/hUYA==" FullName="刘颖" uid="1176" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="stephanie" EncryptedPW="BZjrd9pDJPTEOWmGGdDKPQphCxKI7Hk5tf8OsU3PQr8tTS42KiMTUxIeq5sS/X1hfDBQlLRj4kzLrv7rKx/Qog==" FullName="高佩懿" uid="1177" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="shenchen" EncryptedPW="G7iIGOI4JOnPDGmGGNDKHYohmxgX9bla8MRA7btI6os/qZ7wpwejMJofmENKRsD8a0msq50KNFzQBkxOwC/eqA==" FullName="沈晨" uid="1179" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="chiiwu" EncryptedPW="JpK3Kdk3E8+HMDvVBMeWXVRsinZdF6Nz9xDU81MAZrsjvxa+EYZsEFN7wrk3bTiPw2TLM1OPFSvTLbPR86tPXw==" FullName="吴育虹" uid="1181" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="elliewu" EncryptedPW="NJKeA8ZACsyHHmmGAcvKPVkxZ+TuUFl7ujGLcNUuMIopFMOqZQe6OJKPBl8YfcaRkPyMsfyXGadzVEf0RyhTuA==" FullName="吴敏" uid="1180" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="panjingling" EncryptedPW="KaO2E9hCHqjGD0GIANLHG5ryFJnWtVe922hwt4yI7GgEu5zviyx7eeUuQ2mwcJgIPXwZQnrQoWSx+KgKkwH5fQ==" FullName="潘静玲" uid="1188" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="gongze" EncryptedPW="ZJG/C81fJs6DHjPUBsueXzMwvmcByETlcX/MDkzEz//wzYoaWqhvjTH3D7YQZGLDsfuTevmhwH8g/QtAnBR48g==" FullName="宫泽" uid="1189" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="tanglingjie" EncryptedPW="Baa0GNBcP/znAzPUBt6eX7uUKdWuzzAKc7ZkRiwD6OVVFLFR63qMTwXNzGsJB+APQRQoTAQu67BHjUPCZ0wbiA==" FullName="唐凌洁" uid="1190" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="xuanxiaoyi" EncryptedPW="A46uMeNeINn6OjPUHcieX/hBAf9CUtAXiYqMxY42qjGUn4sLSp0WL0b8n9siZ/KSIxAhJ8IxmgiC60aXWmRXTg==" FullName="宣晓翊" uid="1191" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="yingzhang" EncryptedPW="GJe+McFZOMXGL2mGAsrKHddBT2tooFWNife4liFgg3H4/wJUFpdUI5nx9NnFDhH1LniB4eHt6ljnXA8aseDXew==" FullName="张莹" uid="1194" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zhangwei" EncryptedPW="N6StGOZpYdD3OWmGH9LKHThDN87tiQTGAV3o0l2LT8/+mN4iHW3w1wanmDrN+AqIgKZOC4594mdJXdqw/g4dhw==" FullName="张魏" uid="1035" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="lijia" EncryptedPW="MJOvBrdHH8zSEGmGF8HKHU+CeXLhLVsldA9DHPH3cZbdv5SvHQf2xbIij6h/TFmdhV3C03k9rnOYd8yWaFZGtQ==" FullName="李佳" uid="1195" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="peijiejie" EncryptedPW="J62rcud4Hf/4FWmGBMXKHQEizvYOBT4G7FcR60fwTBLrQyKUn4wl2GehP2v9v68Lh1Pg4T+pbMq67W21+wwl5w==" FullName="裴洁洁" uid="1196" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="liminfeng" EncryptedPW="NaG3M8o/FczpJmmGH8zKHdOYG+jGOPqK6HJAWZBWLlCxd+GTMxhiZHYiDqZtTED8Z242GwHRE4duE95Sq2B87Q==" FullName="李敏峰" uid="1197" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="jilinfeng" EncryptedPW="H4yLItZ3J8rfBmmGGcPKHUCaPFTpVkzWD0zyjkHHgvDjQnr/TirgWGR7th8Pnu91ht2yRGM8+y7iqeJsfCQ1Sw==" FullName="季林峰" uid="1198" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="gaofang" EncryptedPW="CofoAu46ZKjGEjLZAceWXsF8GrRH8CI6UL9VbFT+qjFVGqPQ1vzRYhxSHaYK3zJoO0wVv7poCbIm4qqupd8iLQ==" FullName="高方" uid="1047" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="wumin" EncryptedPW="FJinLbh/B8zVIWmGHdPKHThXqxBzQNXp+3qmBgGokURi4xDlYkI9goHQCzvtes3tpJndPG2SUu5bx9uxpMedZQ==" FullName="吴敏" uid="1083" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="chenwei" EncryptedPW="O5+eC9llE/bEA2mGBMnKHR+pP4gkAeoJiRBWwHz7SfkpDa2VvTPLEuBVPCP7PXVnlywicRpsobHlJkSqmOHWoQ==" FullName="陈为" uid="1199" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="yejiale" EncryptedPW="KpeLMuBnNuvGbmmGG8/KHab65qYXpDKt/xa5znKyU/tNeh5azjQQPSC19JqaEVzf3gfWrIbD2eF0UI0d6mZH2w==" FullName="叶嘉乐" uid="1201" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="gaopeiyi" EncryptedPW="PouTL8hLH/bTJmmGBcDKHXnVXZ85eprgXEHMbu2kVqkgRAntCVtZZbj1E+Sgt6i95AS/1QRIGOoJoQDTOtUpwg==" FullName="高佩懿" uid="1184" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="chengfangfang" EncryptedPW="a/DvCMpJPs+AEWmGGcjKHWZVMPS3ZJNh97lH98jK6bcvKVEGPYml/82SODiJlfuNiJGJ3hhSG3VFienVN0Wj9A==" FullName="成方芳" uid="1202" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zhujunqin" EncryptedPW="F4axJeg4NvPsZGmGANzKHbIcT2tB/zTwNdvvf1izUt70KgbVKi8ukAGvc0pk5vMUGuSNTHV5Ibz4gBWqZkxhHA==" FullName="朱钧沁" uid="1205" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="tangchenyun" EncryptedPW="A6Kff+tHP+30HmmGHMXKHezYygpku6kgucz1kMoG7yuHmp4AVLbxF3kKeRQkMJ6YaeWH64y/HRfIoltFbGlvNw==" FullName="唐晨赟" uid="1206" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="wuxiaomin" EncryptedPW="Z/GPLOs9GP/MGmmGFs/KHaUoyU/6iCet4fR2ITE5I0DXMSGw6NpZjrInEkfIEbqYHryjQfluXMwhJpqXbD39yQ==" FullName="吴晓敏" uid="1156" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="fuxinmeng" EncryptedPW="NIirBcVWZ/fcP2mGHsHKHasanhL/R/MaLHVTIritryICuK83fSosvYN/uDT/qvapvyv8ImxzMONEVt8CbMxC5g==" FullName="傅心梦" uid="1207" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="yinyue" EncryptedPW="YrXsD7c+Z/aOJ2mGFsfKHSCZTzRaK+0loMrTNVevzwADkwhvTExH0gy/lU6CoM3V6KSSrs8onsGDYobM4Kxpgw==" FullName="尹悦" uid="1208" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="shenyang" EncryptedPW="F467JsVIA9DxH2mGF8vKHfQ28eZTppyzcNT0wZQz5HTLErx1tISg/DPcwNdyBwh0jGdr10AhxmQhyjxyxEb1Hg==" FullName="沈阳" uid="1057" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="jijingjing" EncryptedPW="O7SOJtdbJezTbmmGAcHKHeV6BOhQY8ns1wMHAMinU73LwMEaTsp8uTIIM1rhqUu2knSzYSNwkkmzvmb4jKEjyA==" FullName="纪菁菁" uid="1088" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="caijingjing" EncryptedPW="HaSpfulPJ6uPIkGIHNzHG6JLX+1ERRsUPWmIqPt1zsbXMDu3oZBaHumc/LmJfDU3nSZDDkkYGJe02ydIakk6gQ==" FullName="蔡菁菁" uid="1157" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="chenyuedi" EncryptedPW="ZvGtfutgKvH9AGmGHMXKHU5blpOUvm7BC/TmfFAnA6BnxHvj12hi5JwH+BXEJdWEV31ndIwWvWbt83OqZWjMag==" FullName="陈月迪" uid="1076" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zowie.wu" EncryptedPW="JvitJtdDF/bjHkGIHdbHG853bTDUP1LfMB57GiEHykfem5vsohuvWgX9TOiY56Oexoz0jD00/xkE+02CVuo/xg==" FullName="吴波" uid="1187" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="wuyuhong" EncryptedPW="a4i1cNxWB/TePWmGBNbKHbsWYK5Jsr7KuG1kX+zNyslSyX3P08z2pOq5lr5vNF5YNPGi0c0hCLwqlyBNDcguVw==" FullName="吴育虹" uid="1211" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="wangxuanzhen" EncryptedPW="YvmXc9l0H9vjMGGIGsrHGzTqy5H4RFAYe4hFx1hRa/nHUd6sJt80sCCRYYvkAcFMe9S1oTYyw48GwZV2vybvew==" FullName="汪玄真" uid="1212" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zhanglei" EncryptedPW="HYiLNPs/B62DP2mGAtTKHfQFrIRHrp0J/IZBWopdCeBtJstgraPPeHif+q0RPSBmfVqJke5xUDYTz0325IlrxQ==" FullName="张磊" uid="1215" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="huangpeimeng" EncryptedPW="NbOJAup0AO3lOmmGAsnKHQUAaGHPS51BJRaXEUM4573xw1Bwj+C6NL+4P3zhlT4hiP60jm4wPtqVte3IBHIVqg==" FullName="黄佩梦" uid="1044" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="sunyiwen" EncryptedPW="ZI+SCNY/YPfjIGmGFsDKHTMWgSI+2yK2v+xfEZb9ZURHr/wIFvgbU0FtF+yCzBJaHAgG5MkP2yiN1cK71Wiq+Q==" FullName="孙伊雯" uid="1058" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="litingyu" EncryptedPW="F6a3Ns1qZ6r0MGmGGdzKHT3sh0gQdEh6xe4KkE+clUgI/s6MCW7bKXOmAGXerJXFKUuJOEb+HNT1C4S3sOF6xg==" FullName="李婷玉" uid="1090" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zhujiaqi" EncryptedPW="EYSeHeE4ZeLwLGmGHMzKHUtcFvnVhRTj9B96HsnVBsMU44UGle21nEW3uAlWs0bnmVKUTM7PKMmnhpS+Ajb0AQ==" FullName="朱佳琪" uid="1006" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="qiuchenchao" EncryptedPW="MK6rA9s2BO3dLGmGGNzKHWFBJO4WrIITtgM/eqxG2fbmzxxmwSzrMEAyQAz9uiXpxTz486Gzj9yr4xlbGoqZ0g==" FullName="邱晨超" uid="1010" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zhangmin" EncryptedPW="AKLsP8M6F+OEDGmGGMrKHRGiGmnBt8XOJ/kQwoP9lBqpZKjLZ1ZVIk/FyugrWuf06IvEhUcJ0FzruL9U8dQkyg==" FullName="张敏" uid="1032" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="KevinBao" EncryptedPW="Ioqsf7ZqAc3fOUGIAdfHG4yVzzcvp4PS79SAsuTjMNG9tiacjHaYbMoG/s0htUpCwy4F9XG/FOQ6l+L5xO/usA==" FullName="包新凯" uid="1054" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="suzy" EncryptedPW="EZLtN8ZkAsrOZ2KDCOzLCnP5FO4GDy1GcIqxJLGcm7WOtVvqC45LgdFy6wZNXJeJ4BzgtDtMEVyGtOU0cQJGpA==" FullName="陈捷" uid="1095" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="yuanqiaoying" EncryptedPW="AvPtKNpAZ+zXOUGIGcLHG2oVpwYmWuX2P3Yi38coxjNFVRu1B0KfstUOmizaw5YC9RPpYnA54rIyqo1CcdBcqw==" FullName="袁乔英" uid="1109" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zhudi" EncryptedPW="BZ+eP+JhKsXlPkepCOHiDDJHG7lwnVb+O7eGzqwbrht05Xp6CFgLGS0IebCYgRJ8Ucb9gHyiy/EGVLOW7ZU30A==" FullName="朱迪" uid="1122" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="yanglili" EncryptedPW="C5SoFtl0BvLpZWmGAMLKHfEHMZytHR0Yjh98QWeQxthdkiq/ySkc3LOyv0fWcCKIU5TYzwhMRWwJETMwz+CNQA==" FullName="杨莉丽" uid="1148" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="wensimeng" EncryptedPW="EPm/F8c3OtmBEmmGGM7KHag3EfrKAoNp7hkbvmf1bEpIk/pEy1J/dkGTg5TQZvptyqeqV3Fb2nAN9TwRjwMvVg==" FullName="闻思梦" uid="1049" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="panrui" EncryptedPW="BK2bHtd/JsyODmmGA8fKHdP+I28WCuOHoAu+u928abbNygpwtn2ZpqclDPQyiSptMFQd9ZGVwtJ9sxI7rIeOmQ==" FullName="潘瑞" uid="1151" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zhangyan" EncryptedPW="APCedORgZdb8DGmGGcvKHSwOApErFKneOm3geu/M/JvGVuMlIU7JM3YClDthEm5rDuJPnwfQSIPi4vEBY7xMUQ==" FullName="张研" uid="1153" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="fanglu" EncryptedPW="BIXtcMR5M/GDOWmGF97KHQqDoEF1UY/VIyug4Ts1IzxgvRl5bDZ1lNFBBhZrDC25RFoqrSNuyBZsHfrZVUJLZw==" FullName="方璐" uid="1045" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zhuliwen" EncryptedPW="GPWfdsBmBsDwY2mGG93KHWOtf5b0HqOJnjEv3+KNwxO0FjyXaaLRcMFbWPxXk53mTthapu9uysdSUoco9m0YrA==" FullName="朱丽雯" uid="1018" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="lijing" EncryptedPW="N7eefsA/AuvgMGmGGNXKHR/W4RMnk8Q4O3HcSJOlPTHm3DInFLuAk2oLxsFDrjl3za7n/sVMpyeET4RjAp5KzQ==" FullName="李静" uid="1022" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zhangjianan" EncryptedPW="GKvqE+49aq3YHEGIH8PHGzmNrMTw6hYDVRKWHpbh7//TaIUSxN9yhzJv64S5cCS1NUxwAFohRNbVQLZo4s44EQ==" FullName="张佳楠" uid="1085" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="wangbin" EncryptedPW="EK+/GP89H/HpFWmGHNfKHTPFn2zliqMFA0AnbSUjLaL1UhuVSHIBeEzmsVnOQHXYC/6WIhLok8AlPfCXNihC/A==" FullName="王彬" uid="1093" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="jinchao" EncryptedPW="FJi/ddB+JeDeCWmGGcXKHeL0lXqLmfxWud9R/QB7HpRRn1yNShSy9+fNgr7OsH0AdrNd/4Wlzm22SLdcYHgLuQ==" FullName="金超" uid="1102" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="wujiaqi" EncryptedPW="JfTuMOxrEdOHEmmGANXKHQ+bIamodyHapDBlKnSDaAwbyOMnXvaRT18RJhbRn2UXH5ogd8MUZ3yLEzt1J/ZSUA==" FullName="吴佳琪" uid="1137" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="huchen" EncryptedPW="DPWWI71hFfeDAmmGAcbKHSe9xxVqAV/MRs7IXoM+mRs8q67rKHp6BPseXp3iP/5oKfBdw4QwdyCUBdPDbIBNCg==" FullName="胡晨" uid="1160" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="feisijia" EncryptedPW="DPjtFshcYKPVG2mGA8nKHcf8eLB3MNGMXSIUIY5IEqOkd3PF1CDeaTQ52d1qht9fuszyM/c3N8hbVETdyEPX3g==" FullName="费思佳" uid="1150" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="hexian" EncryptedPW="EJavGO5LKsrePmmGFt7KHXXPpY70AKT5RB9PzRJ6+NbTvb/RkmAmkMX1JztF9jKUsHRIpKIhZ1QetwubYPjRJQ==" FullName="何弦" uid="1168" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zhuxiaowen" EncryptedPW="YbOaGPo4FsPwG2mGH9PKHXyC3FiLOuV2d65jQI2h9xkHz9baYYqBjRpH11aqsOtQorSgqPwbWP1+rnMMRs4QjA==" FullName="朱晓雯" uid="1053" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="mengyan" EncryptedPW="GK6bCttXCK3QEWmGHtHKHcbRsdZnNIstWpsua20CwbFVkCIPmfs7kluNIe/9X5nR8yXasUhfo5embI39XTLfnw==" FullName="孟艳" uid="1078" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="chenmanna" EncryptedPW="EauSBdlIFaj8Y2mGF97KHbae98yt/8aCB5hlDSkQuUXSDDqAVxewhafoG54S/roeMeIUj0dc0WAah7oE3Y2v/w==" FullName="陈曼娜" uid="1096" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="liuruixi" EncryptedPW="EITpANA5HaniZGmGGNfKHfIwG2Ztqs7M0ENaF4eR5gpebiwMKin9zcvAdUlxKXFvFy0k8SMtgt2cSkX//F+hoA==" FullName="刘芮希" uid="1141" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<Group Name="IT" GID="112">
+<User Name="yangyuejun"></User>
+</Group>
+<Group Name="BD" GID="113">
+<User Name="huanghua"></User>
+<User Name="zhuxiaowen"></User>
+</Group>
+<User Name="guoting" EncryptedPW="Jo2EBs1nGuPDDkGIHMnHG359qGRcFs/ZZSd3ttATEDNnN1uSH+u6nyCo2MAZl4odVDLATxn/0lUjREiMQubz8g==" FullName="郭婷" uid="1147" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zhongsheng" EncryptedPW="KYOLd/9ECKrfZWmGFtHKHQyu2VEdIi+QFiaGEPzNt0jZA+GZVy3e6A6Y3yOjgM5eI6UH89aov5y9C/Iy26kptg==" FullName="钟声" uid="1171" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="yulingjie" EncryptedPW="ArK7P/9XFsvhL2mGGMPKHcosqxEHK6NOSei+hMZXc9bwxxksk1gpAnCFDMr3pCrp847aSRPW3tX8Q548AEVm+A==" FullName="虞玲杰" uid="1173" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zhangshengdong" EncryptedPW="ZqiPftZkNaLYI3KaA8rDGi0jT0YKHqZpLB2ms0osSbpgqx6/t31REXmA7o7Srf59jovsQ9o5K1n1ULjIzWRi2Q==" FullName="张晟栋" uid="1174" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="fengfan" EncryptedPW="B6G/I9VYIf3cDjLcAMeXWVKMr9DPFpBFPqrTmeZSEqmX5pzz9/kp74GE+gUi3Sx13JA5He6FX52APCEaOVcajA==" FullName="封帆" uid="1094" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zhanghan" EncryptedPW="Ofe/HdV0MMXaLkqOAOnDBJyAh1+z5Rjl4cHNb3fLDeAK+j/cpGPHLjfUogcVGcy619So29P8KL2IkwsOiDB1xg==" FullName="章晗" uid="1019" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="wangweijie" EncryptedPW="NK3vEep0G6vSLmmGBMjKHZHdcbojj0qD2J/iCq1hulxjzsiHaF20cl/LGsMW+DGCeLpDm6TUn4XuDSo3O/IKaA==" FullName="王伟杰" uid="1183" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="liaoziliang" EncryptedPW="Y7LpHdVPBNDQB2mGHMHKHfqIl3LXN0THuvwtNPGEHwJgFudbSaNuaVfkm3t2H6rzzPda7rK+jcdqkqZ5bb7Ijg==" FullName="廖梓良" uid="1186" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="mengyanqian" EncryptedPW="HLO/FOBKJsX6LmmGA83KHZYswjjY22zc/5cKNiyP7YqPXLL+oqr6ZhA6HTINb71Mu2kWof/Lv1nyHDDoJMofhA==" FullName="孟艳倩" uid="1203" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zhouwen" EncryptedPW="ZqLpD+5LAtnAJWmGAsXKHaJjacPRMzF5aThmNPi7wglm1qEp+yLlzsWrinku60VPdmbsR7+UgSfZCGDL61bv/A==" FullName="周雯" uid="1082" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="chenzhaoqing" EncryptedPW="F7CLD+lXDerVJmGIAd3HG3kMFOT4pfzOApOMcdZOXQ8zmtJ/HcvMQKYhex6lKKCW69F3Gv6Rmfsbi9a3w0hg9A==" FullName="大庆" uid="1209" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zhoujiaxian" EncryptedPW="PpnrMM10YdXHMWmGBMzKHYWgbHNdODepNYzCEbz2GR4is1wm58RJ1TjsiMY4yH8yzMQvDbpnVruganPn6orYdw==" FullName="周佳贤" uid="1210" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="wangtingfang" EncryptedPW="F7iKEMg9AqjTMmmGGNLKHd/BFO8LjgzG2QZcI5urDXFLnYrdWFsCe8JUetsUXOPT4xEhqcGUCq+gxpDQozwshQ==" FullName="王婷方" uid="1129" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zhangchengyu" EncryptedPW="IbOkFP1bPfH8DGmGGsHKHfmod16jfJ85SEoa1Ceorwz9gVYXLXaimAQVPW/RmQkJQ1vGPaSLDcyDKTw+w4yXjg==" FullName="张成彧" uid="1213" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="renzheng" EncryptedPW="ZvanAtB3Ys7BZzXYHciSW4jKIDt2k3dUsSsSCU7B5g9+Np9iAtoz1xQKn0E+PfUR0dkGuvxmLZlhbVTJyY8BXg==" FullName="任铮" uid="1217" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="duyingying" EncryptedPW="KvOLHuRmGq7uOmmGG9LKHb0pGxQdisa9iGnhqeamdOdHSjPLqdI/l/eyDLv8Ge2+18Wj4hQLKxi+l81eqcwrkw==" FullName="杜英英" uid="1155" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="yujie" EncryptedPW="CaieKuU/I/j3DmmGGMPKHaERoy2YViaNc4F4L9E/VJskSIw4suRUzSCrut96suk87IVLyYSYhIVV1iYGECEw/A==" FullName="余婕" uid="1218" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="mengli" EncryptedPW="G7m4A9lvM/biEGmGA83KHVRLrM/N80Px1lmTu6+sF5FIH9PFp1k3uzwIcEFz0+fwKubZT3UhZYh2pFoYhOa3XA==" FullName="孟丽" uid="1219" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="zouyuanyuan" EncryptedPW="CaysD8h6C+DvGmmGHNHKHYvnYX9qwc3ZPsc5MzkQJvx3IbqVqKY8YwB/EZDrMb+653mXjlB6058K+Z7/o7lrDA==" FullName="邹原原" uid="1220" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="yinyu" EncryptedPW="EJ+rHuY3ZsuBYUGIGtfHG5OOxOZv7MfQQSUU/XaVu7pYDXz/CN4yMusxrb8qTYFEwWuxVBExZMqMjoqYp5u7ww==" FullName="尹喻" uid="1027" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="yutian.zhao" EncryptedPW="Yq2kFrZ3KN+HD2mGBdXKHf+olZdVCMk0d+xt/VRPVVG+oSYRj1Xjx4hu5RlyQ8eRNY/uyrShRvJqPnmkrBPusQ==" FullName="赵雨田" uid="1036" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="yvonne.tao" EncryptedPW="C4G4Kvd2A9DzNGmGG8PKHaQ5TfD7yTBocOxfPqfWsftGGoOR+g6PcYWTsSRSBVOLO0DtELwB25px83ymaeMk0Q==" FullName="陶洁汝" uid="1182" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="wuekxin" EncryptedPW="EIaQM8VtCtPwB2mGHt3KHZR5vUrE0rfSOuFDCCM05/jbCAexaGJv7QA0JFi99kVXVZTX7Gv+rleuiNBLYLAF/w==" FullName="吴可欣" uid="1145" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="tangjialin" EncryptedPW="DI+HEv1BHM7aHWmGGdHKHe6VpKsT/b/3UrZjTwuAB2/xl8zaTLe6i0hWvL1bAlh/mRrJJysGQLWiRfhSD9tYgA==" FullName="汤佳林" uid="1221" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="tancy.tian" EncryptedPW="DI7uIc1PGPbMOleMA8/ICzSNFN7lElEawgoS/JL9W0pqHFzifOsDmAEjeb5pLGsXhcI9eHqcKRVUuu6/sPCdbg==" FullName="田敏娅" uid="1026" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="tina.xu" EncryptedPW="HPSXIulPIqPGZkGIFt3HG/QU2iZ+r/fJqy9HaI5Gim5RQjG4njnrbbePJ7gBSPhiLGaeyYebG/iTDI3tO076Vg==" FullName="许婷" uid="1193" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="xinzi.yin" EncryptedPW="ZqnvcupRK/iDDGmGHMvKHeorVS1ZY50boNZDFmCvwuTq76BPgXgBlebQPIGYVj0/VIjpXMEgUBLob+THH0SN6A==" FullName="殷欣子" uid="1222" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="steffeny.li" EncryptedPW="OKWlJrxiHff+MFSJHvTFDBZYarZcAK/PtbGICJQ1kMdJ1JLxl8oj4vG8MHYcxLUodvI2HroZE3zho3XD8TU3Yg==" FullName="李文妍" uid="1223" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="miki.wu" EncryptedPW="J7msGL9jK66Eb2mGGd7KHYQvkY6aoxxqPKapBmK7ZrsePoWCLrFeJhq275osu0rxUQLidOXARm1IIjka0LsCGA==" FullName="吴文欣" uid="1224" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="brian.cai" EncryptedPW="IKSeKuR+HPDCPGmGF9TKHYHd42o9cqt4evHsLNwwRW7JV0yKmBeyfLogsJ8JUxMAyFZL1AJ27szMHKhBn/Hgjw==" FullName="蔡秉谕" uid="1225" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<Group Name="天猫&amp;京东客服" GID="110"></Group>
+<User Name="tony.bao" EncryptedPW="NaWsFfw5FtHxJzLUGM2eXbvv0IxtZE55+HHCRbFJItiux2zd0h0jiqElPN8PXrq8p5s/FIS1CKjH9AByEUFWMw==" FullName="鲍强坡" uid="1226" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="yanzi.xiao" EncryptedPW="JIGCIulDJtfuN2mGH9DKHZFtTQPQk3qOzx6xE860TeLaYxFNBMNDcPXfB0u/zZVJdqswt1wH8srp2WNcgv2qig==" FullName="肖燕紫" uid="1227" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="erica.chen" EncryptedPW="Mp+WCrpdC8KHZmmGAsPKHfMDwbLmbG4MBJH5f2XvezdvvOBLfmp1z55UmYL9NBUTNZvwKycEttdxRfbiNy5ATA==" FullName="陈纯" uid="1228" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="chen.zhao" EncryptedPW="G/G7dNhRHcz/CWmGAtLKHe+i+yQ6ZmkoxLNHqVnxV94joSq+I9Igwlzm37OSdG7I+jfihEwoI4xbf6eIGS4fJg==" FullName="赵晨" uid="1229" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="guigang.wang" EncryptedPW="JbO4CrtFY/7/JGmGAt7KHZxr7Uhv3Vz5ldDPnmqrsP4XaL25SojQSMH85htloKBG9IthqCI0zuEgVWTO0Ps+Ug==" FullName="王桂刚" uid="1230" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="shuang.ling" EncryptedPW="NLmrN8haPqnFZGmGF87KHZJoz7M53/8G4EbFX8lQJshfR+w3+bF/gApFQPHuRInpLTNXRqJNv3+UDk7jxvAb+g==" FullName="凌爽" uid="1231" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="shiyu.liu" EncryptedPW="C7nrBbd3A63UZWmGHNfKHdaPkQBlr3GOQSX3kpirNGzgEReADfDLxLcyVwvJzzXdi8g+wYHG+wkFBbeLgcoUAA==" FullName="刘世宇" uid="1232" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="yiwen.chen" EncryptedPW="A4yTEd87IfnzY2mGAs7KHS9MjaJayMGjiGfe+0pnKYhUbcGDvhy1CgdzCuQhe/QigHxG1Xj7M84TJH9m/BT8wQ==" FullName="陈逸雯" uid="1233" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="jie.gao" EncryptedPW="PZmYKr1HA9HxAmmGAMvKHT+nUKHSC0rrZTr99sTtmadHiyREkQ/h5PFldNmgWbizEi6E9HMEHt63bbwouucV3w==" FullName="高洁" uid="1234" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="jessica.huang" EncryptedPW="ZJa0d8E7M+r9ZWmGAsHKHcI64RPREbBRzwpz+2V9eqBCqhwvRd9Q3gWf8n9VX4R9yQcsmn9OKT6SjT38lZYmkQ==" FullName="黄彩凤" uid="1235" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="kun.shen" EncryptedPW="B7O+Dt5jFPfyGWmGHsnKHWlebO0tPYt9NK2iAjqb50eitCVob59oTFKfbIJ1X8fglyQy3W4gzKr8JvianugXFA==" FullName="申堃" uid="1001" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="jiabao.li" EncryptedPW="Nfa1d75CFK3wGGmGAcfKHdK8mKf41HcnwK50aNOWeYTynBrpgqs3Ba5pU143qzS/Ip+UOH7nuYqzrVoGkZtmww==" FullName="李佳宝" uid="1004" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="liushuang" EncryptedPW="ZI/uKt5KJeDgHUGIGM/HGzC2yNQU0WeEgYaPU+UOVeGFYVOx7R9z7BIGy7ldsvl6Ui2vty+bDNOgtjH4+/q10g==" FullName="刘双" uid="1014" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="jessie.chen" EncryptedPW="ZoitIPlGIOnEOGmGH9PKHaxf8uaX7GLR5JYmtZdkxdF6jtURIC5pgUgA38t9pCbqfPLE1xBM2rhptjtePukh9A==" FullName="陈思佳" uid="1023" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="joyce.zhu" EncryptedPW="EPSZBORkOcPCF2mGGczKHW8dvfRlagOoHuQv18ojQjuUK55vtrU+Yr0vOBPbuf9osjQfkCgwFwc0jgjBBe2ckQ==" FullName="朱英英" uid="1025" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="jinying" EncryptedPW="BY+yBONYFunPLDHdHcGWUL1ciTrWtq1Rt3OE9mKySribAtZ5mirZ4Bkt2xgxrHv9aeUCmc6LLeaIrdJDOCgZjw==" FullName="金莹" uid="1028" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="Candy.kong" EncryptedPW="JqKrCdZfPPPBZGmGHsXKHeAsCR+aF7+gi7r3gkbCCmqnCiUMev/6doyNC6mLKWMiMSvAkR1mnSPeXqv+M+jvUw==" FullName="孔筱佳" uid="1038" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="yingying.xiao" EncryptedPW="ArOLdrpKJvDEG2mGAtTKHeGHRNLoKT6+eJHJ6WXetSKJqyeeRytmKz/zl/FoXFpuXLFilKkcwMCEhPwPYsWbag==" FullName="肖盈盈" uid="1043" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="Joann.zhao" EncryptedPW="MKS3FLdjCNTkZGmGF8PKHV8tb++re1KEZKBYswcRsnsJjWN6bj9PifNlWU2hVzgWBEDJ3oHjZZOYl18YCyBhmg==" FullName="赵娟" uid="1051" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="rose.xue" EncryptedPW="NKq5DbtmZ8XjGWmGHczKHWRcGAckeltpKvWq5DCfr+FeTD7NJF6RYqa+8m3iGF4UgoYW6cWygE+Evh8JJYw0sA==" FullName="薛驰誉" uid="1099" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="jilia.zhang" EncryptedPW="J4PvK71+FvfOD2mGFsPKHWpWc7lgjcqV5D3wsASAdlwMOTRYvJRwt1KjcYLzBX1hupDNruJOfVMCgd6X3RYwmA==" FullName="张婕" uid="1100" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="耿莺" EncryptedPW="YJapNdxnMajaJmmGHdbKHVm/pDsWrx27SBF2owliZAtDzpNeI9w5GsRNYsK+he8zhRZbN3/N2tcwocxiR08Qow==" FullName="kerry.geng" uid="1101" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="kerry.geng" EncryptedPW="A6mtC+1vJOqAAWmGA8XKHbXVZ/LWRTHeYNH+RIvL55pBmrhWgfVGLoRC0LzNtnmhyau2qIpjQrD8iUj+58mkUg==" FullName="耿莺" uid="1127" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="alex.chen" EncryptedPW="KaePCstkYKn3PGmGBc3KHd5/K9+D2vofq4Oum0iUSamrNN0UUTuvSufjlbBmlRvGeP9o+8fecx28ZdlHv5IjxA==" FullName="陈梓怡" uid="1128" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="ricco.dong" EncryptedPW="J4KbfuVsGerFAmmGBcDKHfDhd0wE/YBpR4OUwUgFrSAkb4xAmLvVfgkbI4kqDwXQgV3OmlqkgP7A67xKW+unrQ==" FullName="董维刚" uid="1138" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="Jiaying.Guo" EncryptedPW="KbG5JbZ/GKrnAGmGHc/KHYHdrFDQNIo5ejN+CrRYxxn7rY2AzwhcDYT+RA57yeBaqG7N//CoV/F8vuolhJaviQ==" FullName="郭嘉莹" uid="1149" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="annie.dong" EncryptedPW="CbWuEOpMPt7SOEKDHNbIAR3TTfwlGZi2mIfY5NNA3vEMJim98jdzUtRX93KYSb16GhW7ug33urHzwogR50xnKQ==" FullName="董歆妮" uid="1172" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="george.wang" EncryptedPW="HonsD9lJMPDTNGmGF9XKHfqdLpuinajMZutDV44Yy5c98e3VVmJRciJps1OjvP8NXampI2zDcypvBndHvjzCLw==" FullName="王士琛" uid="1178" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="sammi.zhang" EncryptedPW="Eobpdbg2YeuBPWmGHcrKHdf0K00AORX8ErswB5JQOnDyEjx/q/kmV/hN7X5O0pb2FGl22ILHfB7oCBxdSjqNEA==" FullName="张敏" uid="1185" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="will.zhuang" EncryptedPW="Y6W1F9xdYtDSD2mGA9DKHXoxo94JZDMeRB5LyfLQ3t/MGO98RhmAHkXjXYrEdMjMQW4vsgiCGd0QZaK9chuSUQ==" FullName="庄洁" uid="1192" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="mirandawu" EncryptedPW="Pp+0I+1HG8DHMUGIBcLHG0NXD6+wmE+GSbHHryrkPo/LMDw//GNmULGznD6R72hi2xwjgbndRayu/jJ1iTmU6A==" FullName="吴晓敏" uid="1136" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="hemengyun" EncryptedPW="A6+kI+tsO9XuGUGIAt7HG68hrsu5V+aa9fUs8sWmGiNIWfZxfxPlo+Q1V2J0EJ6IdwnOwLgibTw6AWyKBW/jNg==" FullName="何梦韵" uid="1166" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="bingyu.duan" EncryptedPW="PomJCNk+AOv0F0GIH83HG6ryi4nWDwDqJFbOJKRU0E+vIg5mYzmOuLjGdwuavoIe4vfgyVnabOkEGVxtoVG7RQ==" FullName="段冰昱" uid="1021" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="Cathy.You" EncryptedPW="B4yXdMNLC+D0HkGIHtTHG4ne4PMO5Ptq1r95RjyQXHnMJ8mDkohFUY5snwXfikXAJjDsfOpn5BTAhHztzc6JFw==" FullName="俞静怡" uid="1084" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="max.gao" EncryptedPW="N7a0LOJoKuCCBEGIAsLHGxsRuJHA7/E13dl6ePA4P4EvqADNfDICtU7I4N54heLp/vGIPgSwXF61cxqBdc6IkA==" FullName="高胜俊" uid="1098" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="cathy.yu" EncryptedPW="AquXDbtMYMnRJ0GIGszHG/NXlOmUlRyQrpgh8U2akfp0sJ97MtQ7yQNrF4PpdlC+hO3i/wIqzYTAiHxZ5BnUqg==" FullName="俞静怡" uid="1152" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="jie.yao" EncryptedPW="BLiFdsN+BKKECUGIFsXHG/+39dzgdY2XG4+wFg7UrQ0F4pRTThPo2O5PAA5SNXgIZRobOy3l5KZ144WINBPQYg==" FullName="姚杰" uid="1009" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="shirley.sheng" EncryptedPW="HIOTHet2KNvzLkGIHc/HG9/XnywZoGQYCo67rRynaZ4cmtLIb7Q17cZ8+Yo7DBNYkzOu8Buh4u6khwWsEIK7/A==" FullName="盛芝痕" uid="1140" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="yunshu.zhang" EncryptedPW="Zbq/DcxHNcXyM0GIG9DHG45kACxgWh/NE6W2/YXe1lI1vBZa6GpFaedhw5fo8nuJnUY0CkdGrfB76omNQXVXpw==" FullName="张云舒" uid="1161" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="xiaolu.xu" EncryptedPW="IbKqcbxhP/H/IEGIFsXHGyozaiXgjxewAHaGc/21QCF7L4sk9MIydYbScoUfZq+fzjaxUOjx1Q7N9S7T+lVMaQ==" FullName="许小露" uid="1162" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="molan" EncryptedPW="FIGeEvhdKMqFLEGIGd7HGx0k50eVUM9NhlPOYGLit+lfP/mJpcJO02R1RRB82P6wnSebkWEau9Xlj83Bih6kGw==" FullName="莫岚" uid="1163" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="Miki.tang" EncryptedPW="ZriMM8I7ZM7dH0GIBdbHG4kp75AF/PThTkfNERdDzTUMmFRz7VSWZrBnfyMEBviHA0fPsQSyJjHLqa+VdFDcCw==" FullName="汤晓蕾" uid="1204" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="shirley.fang" EncryptedPW="Ha2VD9VUP/3hEEGIH9DHGwfwVWgPMnfoE2fAQwIwGPFxvgItEfzx1jXQTlUPvyVaUZtaFfI+xs78MCg8LnVV+Q==" FullName="方玲" uid="1214" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="karol.shen" EncryptedPW="IIvtIuI+ZP71MUGIAMnHG8Ct2RGnSpb0AD9yxedEioFvcKkRXTm/pdQfDTQt0tyopUIbHW9IHh7fVfJPf2Bk3g==" FullName="沈恺怡" uid="1216" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="1" EncryptedPW="K6mCF/58Zsr9ZDKmAtzOUTOxlO37MEI+/TEl6Zhpj+FiNnCBJjgSIFAGaMKbeBvPYLOVcBWv3Ob59FZZm/51Eg==" FullName="" uid="1236" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="andy.cao" EncryptedPW="avWadOJNAvPjJUGIH8nHGxTkQRmPTkeTt0IXHutFQXB8W7QvwOPnULfEMYbl6jtR2KMRCOQz7Ry3dIiDIn7fmA==" FullName="曹啸斌" uid="1237" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="forlan.pan" EncryptedPW="Jfe6Cfp0APLlBEGIA97HG5PDSppoWdBF13mVXgJFTvSgybBVZ5peEjS2p9CpvmFbdXPMNhiz9xvMMIjhP2OuCg==" FullName="潘佳俊" uid="1238" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="yu.lu" EncryptedPW="C/GFEtdkBf/0J0GIGt7HGy3oUcwYz7YUzbwM2NVFNIx8Ck39BniHQQtbsqJ8rk6ACTsZRGnOaoDRJjD0DRNQrQ==" FullName="陆雨" uid="1239" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="xuelian.li" EncryptedPW="FPeIJtVbN/LBb0GIFs7HG+F6Gnrzwlg4BhBb4Ta6ckZjknBqNr8zGsauTzfb0M5pcO8xu4NbCmD6aZAHVTHkIQ==" FullName="李雪莲" uid="1240" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="adao.liu" EncryptedPW="NvjlEM5ZNKLxHkGIA93HGzt6CsxLsv9RhZqJjS6c4fQyTzQux37W4ylWep+v0dtUz55l7X7kcrT0pIU6kfaPgg==" FullName="刘皓平" uid="1012" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="yajie.zhai" EncryptedPW="C4KQdr9KMe/jL0GIH8/HG8t4NRqiBZcvIThd+OmHZ2b1x98fLYEhzo2gR2QMl42jFYGhvZSVXkO5LYo0ZjiAJA==" FullName="翟雅婕" uid="1017" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="julianne.chen" EncryptedPW="BouzBeBJO/PiGUGIFtHHG+LIY9P9MmntF1stnBAJegzJiv417lJ+VNKomIhP7i/w1AbryyI706SYKtkpq5d09A==" FullName="陈燕萍" uid="1046" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="alice.lv" EncryptedPW="GKGIBOx8PNvDIEGIAMLHG6psWimCPzdZDBC3CxX9x9uaLBQ1PxekTbmF+LbC41lZ0einGCX6ODFQNKn7dD0fbg==" FullName="吕沫" uid="1059" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="jessie.hu" EncryptedPW="N/TkC9x6N/36CUGIFs3HG529AmIoLvrh8NELMgd/+77mcU11BLi6y/rmi8OqRfkCEOdmLqQ9O6Hc6/2ceja2Og==" FullName="胡佳佳" uid="1068" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="emma.jiao" EncryptedPW="CpGyBu13NqjXJkGIHNPHG09vc7cM2kKkqkxRrM+hAxd6GmE7HWRx73ofRA09jF4wMrnoZgK1dudiT1Vm4coihA==" FullName="焦媛荟" uid="1070" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="rainie.chen" EncryptedPW="BZmVDMw6Kvz8MkGIBd3HGztYLSfZIPRXyetF2hr4+jRXhQCxMtGbd26NiKlgjW4I4VdDFNHfZBR3R222ksATgQ==" FullName="陈雨潇" uid="1104" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="echo.chen" EncryptedPW="FqKUNd05AtXuMkGIGNLHGyjk0x2r7LcsQLSZzPeaJLPONFPqiLzmzYAll7tYNNpFd370I8JI38snHlmr0wtqNQ==" FullName="陈渔芯" uid="1115" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="yolanda.cao" EncryptedPW="ZPmTK+VpZKzQHEGIHtzHG4DAnG08S7k8KFUmcIHbTm1XqldQEZhNRjLS7HCr2Uji2xlUHMjoq9GpPgoPEsM/KA==" FullName="曹晨媛" uid="1120" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="Ying.hu" EncryptedPW="IYuECfdnJsr/J0GIF9zHG9fWyniTfd67ZHePv5kP4gKgV055jsG14z9m7i4WelMEaX0H1PrmcYZWsfEyNBOemg==" FullName="胡莹" uid="1200" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="lihua.gu" EncryptedPW="EYHsHep0NvbSBEGIFs/HG679SgK80+YVD8xYFAxXSjoWx93Qn7F2O7dKrOGZnCuIwiQJIhVMNM6qu1VddpK4gQ==" FullName="顾丽华" uid="1241" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="meg.dai" EncryptedPW="PbmvJPY6Y/zlP0GIF8nHG/28ZpfVIWetGEVkih0DvRISsBUzWDUHEnBl+7FQOmGp9GkSv/3yStKh/dcNSHbxEw==" FullName="戴晓梅" uid="1061" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="Clemens.xu" EncryptedPW="PvW+Ffc+H6/gAEGIF9fHG/oiBpNjUfDnjKWyyJKyXDk53Wv3gBs116x5Jmt9NPu+8Uf5NQhPPUJFDkeQY4+nbQ==" FullName="徐义涛" uid="1062" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="margaux.zhang" EncryptedPW="OKOFFfY5G9ziMkGIHcnHG2Ovvwwv6w1Grxpg2yHtXiLQER8AXT0AXExknpwOclOAQx5rN1CCK03mQt5PZbXYQQ==" FullName="张雯婧" uid="1242" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="phil.cao" EncryptedPW="Nra+Dto9Mdj5ITeFGcfKGbkEqcS7Qi30PHwo08z56l5dRdD2l6hjyCudfwuJcuSgqlfW8BGz1c1kfWlljWaVVg==" FullName="曹曦宇" uid="1243" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="danny.han" EncryptedPW="EbK1E/ZKFqzeG0GIBMjHG9LdyNkJxsHj+FsQuwyKl2XM/yHXMcUznmvHZYF481fnZHMGMj9FWSd40ubfHten0A==" FullName="韩兆晋" uid="1244" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="echo.zhuang" EncryptedPW="J5rkH75lEO7vZEGIAMLHG20VeZGHX6uhtDH7kPDwpumUhQVFhk2JbUQDRiRdzxou67Fb2f81Mq6yz7+RAV2v7Q==" FullName="庄绿依" uid="1245" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="jiagang.zhang" EncryptedPW="N62YLeB+MKyGIkGIAMzHGzoPg209+196puUXd9RF39ClDrrUsSaESWYCVCQs1EytsZynwweYJowZjSv8blqSyQ==" FullName="张佳罡" uid="1246" isAdmin="1" PCadd="0" ClearPW="0"></User>
+<User Name="guobo" EncryptedPW="OaafAf9na9nxYUGIAMvHG4w2+4oJY2y4kdPYdr8XmkLypDIYB7uNwKe5J5ORO9VLUwSrZvFurkwHx8NT/ELxmA==" FullName="郭博" uid="1247" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="dengliyang" EncryptedPW="BaW/AslDB9beBkGIGtHHGwyUORA2AxSL2YEMdsbYI2rM46rH6pI9RLcL8ONclMHMUJXZv910rNpHq+oe2I2vTg==" FullName="邓丽阳" uid="1248" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="liuyi" EncryptedPW="Aay3JfV9G/3+AEGIH9LHG6omAeOzlzyS5v/uBEd4pSjQnlrwDcP/XCGwhJg8SS7lrWDWkVYWLIm85+vI+ss6/g==" FullName="刘屹" uid="1249" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="meiling.ni" EncryptedPW="HKSHJN9FNNLuDkGIAsPHG4z+9kn2ng7kA3En0RFWUP2/+cjCcC/H7t0YWMiurQ3uptz0DCEyMaQLEsbgfyaa4w==" FullName="倪美玲" uid="1250" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="vivian.yang" EncryptedPW="IqjlA7w/KsjHA0GIGdfHG8RYFV+1yP7PXO++UZqgB91Ocrw3/yKtQsvXNNT4zJG7M0xzWNwLd23TjCVL6zoDQw==" FullName="杨阳" uid="1016" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="fanny.li" EncryptedPW="N7eRBPZ/F9jZM0GIHdLHG6jYqQRPOEaNjuoWuePQVCDzFbUXROq0sKrgVnwm3T6jyqLjIx1MY0Fa/LC2Lbv0Vg==" FullName="李秀芬" uid="1103" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="liyiqiu" EncryptedPW="YaubdbpdHO/xY0GIGNXHG8h8iM1Jc7+FAx9Ng6ayeK/pYK8K08h1mXlvk9qTmY9RGVsc8atMQOsiUryNVzDIew==" FullName="李怡秋" uid="1146" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="luyu" EncryptedPW="O/i2CO1XIqKBF0GIHs/HG5kfylXBS400svWGjU3+84TcY0OR9aFkl8EE0VahCa/Ss2KzycWOH2auLrmy4Ouj4g==" FullName="陆雨" uid="1251" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="yy" EncryptedPW="J5OVK9ZoZ+2PNHqMGNHIDxoH5pwwAsSfEFFmrm4OwHF+0OD+blvP3ORWllfCbVsBUS5ofABVAv3H4Lea7d6LxA==" FullName="杨洋" uid="1114" isAdmin="1" PCadd="0" ClearPW="0"></User>
+<User Name="icho.li" EncryptedPW="N7GbCt9BBamAOkGIGc/HG7aQ7K3mc8x8iLf+MsOREumcs/kKt8/DZ8LSjUZONMFyIv8JVDql4/PMISUuJ+cF7g==" FullName="李怡秋" uid="1252" isAdmin="0" PCadd="0" ClearPW="0"></User>
+<User Name="kiki.xu" EncryptedPW="HoOCBbc+APuHJkGIANzHGzB5edzMuXhlhT2nPjyC3EsFIdu7eADzg8z+lLTau/DQQBUUTuPV5pLftXfnRjzy/A==" FullName="徐一润" uid="1254" isAdmin="0" PCadd="0" ClearPW="0"></User>
+</Account>
+
